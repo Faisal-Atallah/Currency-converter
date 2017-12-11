@@ -1,0 +1,27 @@
+body {
+	background: #16222a;
+	background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+	background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-origin: content-box;
+	height: 1000px;
+	overflow: auto;
+}
+
+.align-center {
+	position: relative;
+	top: 50%;
+	transform: translateY(50%);
+}
+
+#box {
+	border: 2px solid black;
+	margin: 15px;
+	padding: 15px
+}
+
+.form-control {
+	margin: 5px;
+	padding: 5px;
+}
